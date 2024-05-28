@@ -1,6 +1,7 @@
 package net.hadut.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.hadut.testmod.block.ModBlocks;
 import net.hadut.testmod.item.ModCreativeModTabs;
 import net.hadut.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,7 @@ public class TestMod {
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

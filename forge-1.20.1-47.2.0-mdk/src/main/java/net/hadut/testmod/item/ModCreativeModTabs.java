@@ -1,6 +1,7 @@
 package net.hadut.testmod.item;
 
 import net.hadut.testmod.TestMod;
+import net.hadut.testmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.sapphire.get());
                         pOutput.accept(ModItems.rawSapphire.get());
+                        pOutput.accept(ModBlocks.sapphireBlock.get());
+                        pOutput.accept(ModBlocks.rawSapphireBlock.get());
                     })
                     .build());
 
