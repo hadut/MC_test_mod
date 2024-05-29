@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.sapphire.get());
                         pOutput.accept(ModItems.rawSapphire.get());
+                        pOutput.accept(ModItems.metalDetector.get());
                         pOutput.accept(ModBlocks.sapphireBlock.get());
                         pOutput.accept(ModBlocks.rawSapphireBlock.get());
                         pOutput.accept(ModBlocks.sapphireOre.get());
