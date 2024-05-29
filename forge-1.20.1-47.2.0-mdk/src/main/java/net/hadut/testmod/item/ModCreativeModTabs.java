@@ -22,6 +22,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.rawSapphire.get());
                         pOutput.accept(ModBlocks.sapphireBlock.get());
                         pOutput.accept(ModBlocks.rawSapphireBlock.get());
+                        pOutput.accept(ModBlocks.sapphireOre.get());
+                        pOutput.accept(ModBlocks.deepslateSapphireOre.get());
+                        pOutput.accept(ModBlocks.netherSapphireOre.get());
+                        pOutput.accept(ModBlocks.endStoneSapphireOre.get());
                     })
                     .build());
 
